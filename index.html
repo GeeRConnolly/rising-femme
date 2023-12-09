@@ -57,8 +57,48 @@ testimonials:
             </div>
         </div>
 
+
         <!-- This is hiding the image block on mobile devices -->
         <img src="/images/yoga-images/retreat1.jpg" class="hidden md:block">
+
+    </section>
+
+     <!-- Section 3 - What's included -->
+
+  <div>
+        
+    <h1 class="text-6xl text-center py-10"> A 3 day full intensive women's only <br> health and wellbeing retreat </h1>
+
+  </div>
+
+   <!-- What's included grid section -->
+
+<section class="p-8">
+
+    <div>
+        <h1 class="text-4xl py-4"> Testimonials </h1>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-4"> 
+
+    {% for testimonial in page.testimonials %}
+
+    <div class="text-center">
+    <div>
+            <img src="{{testimonial.image}}" class="aspect-square w-full h-full object-cover m-[4px] border-[#FF6F61] border">
+            <h3 class="text-2xl p-4"> {{testimonial.name}} </h3>
+            <p class="border-t border-[#FF6F61] text-md p-4"> {{testimonial.text}} </p>
+    </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+
+</section>
+
+
 
         <div> 
             <div style="background-image: url('images/yoga-images/jempinis-12\ 3.jpg');" class="min-h-screen bg-cover relative">
@@ -69,6 +109,7 @@ testimonials:
             </div>
         </diV>
     </div>
+
 
     <!-- Class options grid layout -->
 
