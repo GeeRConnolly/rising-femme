@@ -439,11 +439,11 @@ video {
 .m-3 {
   margin: 0.75rem;
 }
-.m-2 {
-  margin: 0.5rem;
-}
 .m-\[4px\] {
   margin: 4px;
+}
+.m-2 {
+  margin: 0.5rem;
 }
 .my-4 {
   margin-top: 1rem;
@@ -608,14 +608,14 @@ video {
 .p-\[1px\] {
   padding: 1px;
 }
-.p-10p {
-  padding: 10%;
-}
 .p-8 {
   padding: 2rem;
 }
 .p-4 {
   padding: 1rem;
+}
+.p-10p {
+  padding: 10%;
 }
 .py-4 {
   padding-top: 1rem;
@@ -657,14 +657,6 @@ video {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -682,9 +674,6 @@ video {
 }
 .pt-10 {
   padding-top: 2.5rem;
-}
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -726,14 +715,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.2;
-}
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 .uppercase {
   text-transform: uppercase;
