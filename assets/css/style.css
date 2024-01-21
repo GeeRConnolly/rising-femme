@@ -500,6 +500,12 @@ video {
 .max-w-sm {
   max-width: 24rem;
 }
+.max-w-md {
+  max-width: 28rem;
+}
+.max-w-lg {
+  max-width: 32rem;
+}
 .shrink-0 {
   flex-shrink: 0;
 }
@@ -520,6 +526,9 @@ video {
 }
 .flex-col {
   flex-direction: column;
+}
+.content-center {
+  align-content: center;
 }
 .items-end {
   align-items: flex-end;
@@ -589,9 +598,16 @@ video {
 .bg-\[60\%_40\%\] {
   background-position: 60% 40%;
 }
+.bg-center {
+  background-position: center;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 .p-5 {
   padding: 1.25rem;
@@ -622,6 +638,9 @@ video {
 }
 .p-1 {
   padding: 0.25rem;
+}
+.p-10 {
+  padding: 2.5rem;
 }
 .py-4 {
   padding-top: 1rem;
@@ -663,6 +682,14 @@ video {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -693,11 +720,17 @@ video {
 .pb-2 {
   padding-bottom: 0.5rem;
 }
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
 .text-center {
   text-align: center;
 }
 .text-right {
   text-align: right;
+}
+.text-justify {
+  text-align: justify;
 }
 .text-sm {
   font-size: 0.875rem;;
@@ -1094,6 +1127,10 @@ body #momence-embed #momence-plugin-host-schedule .EenGE {
   }
   .md\:text-sm {
     font-size: 0.875rem;;
+    line-height: 1.2;
+  }
+  .md\:text-lg {
+    font-size: 1.125rem;;
     line-height: 1.2;
   }
 }
