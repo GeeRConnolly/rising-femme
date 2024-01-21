@@ -768,6 +768,10 @@ video {
   font-size: 1.25rem;
   line-height: 1.2;
 }
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -1104,6 +1108,9 @@ body #momence-embed #momence-plugin-host-schedule .EenGE {
   }
   .md\:pl-20 {
     padding-left: 5rem;
+  }
+  .md\:text-center {
+    text-align: center;
   }
   .md\:text-2xl {
     font-size: 1.5rem;
