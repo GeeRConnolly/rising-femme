@@ -617,6 +617,12 @@ video {
 .p-8 {
   padding: 2rem;
 }
+.p-2 {
+  padding: 0.5rem;
+}
+.p-1 {
+  padding: 0.25rem;
+}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1085,5 +1091,9 @@ body #momence-embed #momence-plugin-host-schedule .EenGE {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+  .md\:text-sm {
+    font-size: 0.875rem;;
+    line-height: 1.2;
   }
 }
