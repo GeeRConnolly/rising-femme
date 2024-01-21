@@ -740,6 +740,9 @@ video {
 .pt-6 {
   padding-top: 1.5rem;
 }
+.pl-10 {
+  padding-left: 2.5rem;
+}
 .text-left {
   text-align: left;
 }
