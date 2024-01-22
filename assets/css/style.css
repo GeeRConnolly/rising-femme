@@ -560,6 +560,9 @@ video {
 .gap-4 {
   gap: 1rem;
 }
+.gap-\[5px\] {
+  gap: 5px;
+}
 .self-end {
   align-self: flex-end;
 }
