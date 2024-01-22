@@ -578,6 +578,9 @@ video {
 .border-b-2 {
   border-bottom-width: 2px;
 }
+.border-r {
+  border-right-width: 1px;
+}
 .border-\[\#FF6F61\] {
   --tw-border-opacity: 1;
   border-color: rgb(255 111 97 / var(--tw-border-opacity));
@@ -797,6 +800,10 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+.text-lg {
+  font-size: 1.125rem;;
+  line-height: 1.2;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1119,6 +1126,9 @@ body #momence-embed #momence-plugin-host-schedule .EenGE {
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .md\:items-center {
+    align-items: center;
   }
   .md\:justify-between {
     justify-content: space-between;
