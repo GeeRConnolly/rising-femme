@@ -1151,6 +1151,9 @@ body #momence-embed #momence-plugin-host-schedule .EenGE {
   .md\:p-5p {
     padding: 5%;
   }
+  .md\:p-5 {
+    padding: 1.25rem;
+  }
   .md\:pl-20 {
     padding-left: 5rem;
   }
