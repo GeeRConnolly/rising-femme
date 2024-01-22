@@ -563,6 +563,12 @@ video {
 .gap-\[5px\] {
   gap: 5px;
 }
+.gap-\[\] {
+  gap: ;
+}
+.gap-\[x\] {
+  gap: x;
+}
 .self-end {
   align-self: flex-end;
 }
